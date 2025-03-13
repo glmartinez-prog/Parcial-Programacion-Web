@@ -1,0 +1,27 @@
+{
+    "fondoMenu": "/assets/mesa2.jpg",
+    "carousel": [
+      "/assets/tomatoes.jpg",
+      "/assets/vegetables.jpg",
+      "/assets/spices.jpg"
+    ],
+    "items": [
+      {
+        "name": "CHEESE",
+        "image": "/assets/cheese.jpg"
+      },
+      {
+        "name": "BREAD",
+        "image": "/assets/bread.jpg"
+      },
+      {
+        "name": "HAM",
+        "image": "/assets/ham.jpg"
+      },
+      {
+        "name": "LETTUCE",
+        "image": "/assets/lettuce.jpg"
+      }
+    ]
+  }
+  

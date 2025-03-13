@@ -1,0 +1,93 @@
+.detail-container {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  /* Estilo del encabezado */
+  .menu-header {
+    background-color: #0a5c60;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .menu-icon {
+    width: 40px;
+    position: absolute;
+    left: 20px;
+  }
+  
+  /* Estilos del carrusel */
+  .menu-carousel {
+    margin: 20px auto;
+    max-width: 80%;
+  }
+  
+  /* Estilos de las tarjetas de productos */
+  .menu-items {
+    margin-top: 20px;
+  }
+  
+  .menu-card {
+    border: none;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .menu-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .menu-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .menu-title {
+    background-color: #0a5c60;
+    color: white;
+    padding: 10px;
+    margin: 0;
+  }
+  .home-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .icon-box {
+    background-color: rgba(20, 50, 40, 0.9);
+    border-radius: 25px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+    max-width: 600px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .icon-item {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .icon-item img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  
